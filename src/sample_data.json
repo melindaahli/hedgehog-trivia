@@ -1,0 +1,42 @@
+[
+  {
+    "question": {
+      "choices": ["A scurry", "A business", "An array", "A nursery"],
+      "correct_choice_index": 2,
+      "text": "What is a group of hedgehogs called?"
+    }
+  },
+  {
+    "question": {
+      "choices": ["Boiled eggs", "Grapes", "Baby food", "Snakes"],
+      "correct_choice_index": 1,
+      "text": "What can't hedgehogs eat?"
+    }
+  },
+  {
+    "question": {
+      "choices": ["6.5 ft/s", "4.5 ft/s", "5.2 ft/s", "3 ft/s"],
+      "correct_choice_index": 0,
+      "text": "How fast can a hedgehog run?"
+    }
+  },
+  {
+    "question": {
+      "choices": ["A hedgette", "An urchin", "A pup", "A hoglet"],
+      "correct_choice_index": 3,
+      "text": "What is a baby hedgehog called?"
+    }
+  },
+  {
+    "question": {
+      "choices": [
+        "Four-toed",
+        "African Pygmy",
+        "Egyptian Long-eared",
+        "Algerian"
+      ],
+      "correct_choice_index": 1,
+      "text": "Which hedgehog species is the most common pet species?"
+    }
+  }
+]

@@ -1,0 +1,139 @@
+/*
+#3b290f, dark brown
+#979e22, yellow-green
+#68a629, green
+#3a570, sand
+#e7c7a7, beige
+#7c648c, purple
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Do Hyeon", sans-serif;
+  letter-spacing: 1px;
+  background-color: #e7c7a7;
+  color: #3b290f;
+  font-weight: bold;
+}
+
+.app {
+  text-align: center;
+}
+
+.title {
+  font-family: "Balsamiq Sans", cursive;
+  letter-spacing: 8px;
+  font-size: 60px;
+  color: #3b290f;
+}
+
+.question {
+  margin: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.answers {
+  line-height: 2;
+  margin: 15px;
+  font-size: 17px;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  width: 150px;
+  height: 30px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+button:hover {
+  background-color: #7c648c;
+  color: white;
+}
+
+#NextQButton {
+  width: 150px;
+  height: 30px;
+}
+
+#StatusBarContainer {
+  background-color: white;
+  height: 15px;
+  width: 100%;
+}
+
+#StatusBar {
+  background-color: #68a629;
+  height: 15px;
+  width: 20%;
+}
+
+.prompt {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 22px;
+}
+
+img {
+  width: 40%;
+}
+
+#hedgehogSticker {
+  position: absolute;
+  width: 200px;
+  right: 5%;
+}
+
+#mushroomSticker {
+  position: absolute;
+  width: 180px;
+  left: 5%;
+  top: 50%;
+}
+
+@media only screen and (max-width: 899px) {
+  #hedgehogSticker {
+    position: absolute;
+    width: 150px;
+    right: 5%;
+  }
+
+  #mushroomSticker {
+    position: absolute;
+    width: 130px;
+    left: 5%;
+    top: 50%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .largerText {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 65px;
+  }
+
+  button,
+  #NextQButton {
+    width: 220px;
+    height: 40px;
+  }
+
+  #hedgehogSticker {
+    position: absolute;
+    width: 200px;
+    right: 20%;
+  }
+
+  #mushroomSticker {
+    position: absolute;
+    width: 180px;
+    left: 20%;
+    top: 50%;
+  }
+}
